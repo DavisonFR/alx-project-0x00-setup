@@ -1,5 +1,4 @@
-import { PillProps } from  ../../interfaces/index // Remove `/index`
- // Adjust depending on file structure     
+import { PillProps } from "../interfaces"; // Using relative path
 
 const Pill: React.FC<PillProps> = ({ title }) => {
   return (

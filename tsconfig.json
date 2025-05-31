@@ -14,11 +14,12 @@
     "isolatedModules": true,
     "module": "esnext",
     "esModuleInterop": true,
-    "baseUrl": "./",
+    "baseUrl": ".",
     "paths": {
   "@/*": ["./src/*"],
   "@/interfaces": ["./interfaces"]
 }
+
 
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "interfaces"],
