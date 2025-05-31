@@ -1,8 +1,5 @@
-import React from "react";
-
-interface PillProps {
-  title: string;
-}
+import { PillProps } from  ../../interfaces/index // Remove `/index`
+ // Adjust depending on file structure     
 
 const Pill: React.FC<PillProps> = ({ title }) => {
   return (
